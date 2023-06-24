@@ -37,7 +37,13 @@ header {
   width: 50%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
+}
+.conteudo-redes {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
 }
 .menu-header a {
   color: white;
