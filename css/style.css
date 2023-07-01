@@ -6,8 +6,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Vogue;
+  src: url(../font/Vogue.ttf);
+}
+
 body {
-  font-family: 'Bebas Neue';
+  font-family: Vogue;
 }
 
 .container-grid {
