@@ -6,10 +6,11 @@ function mostrarMenu() {
     menu.style.display = "flex";
     icone.classList.remove("fa-bars");
     icone.classList.add("fa-times");
-    // mudando para fa-times [ icone X ]
+    // Mudando o class para fa-times [ icone X ]
   } else {
     menu.style.display = "none";
     icone.classList.remove("fa-times");
     icone.classList.add("fa-bars");
+    // Mudando o class para fa-bars [ icone barras ]
   }
 }
