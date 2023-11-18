@@ -173,7 +173,8 @@ h1 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: justify;
 }
-
+/* Fim Sobre Projetos */
+/* Início estilo Seção Info */
 .info {
   background-image: url(../img/imagem-fundo-info.jpg);
   background-repeat: no-repeat;
@@ -206,6 +207,8 @@ h1 {
   padding: 30px 0;
   text-align: center;
 }
+/* Fim estilo seção INFO */
+/* Início estilo Localização / Rodapé */
 .endereco {
   padding: 40px 0;
   background-image: url(../img/imagem-fundo-ranking.jpg);
@@ -277,7 +280,8 @@ footer span {
   width: 90%;
   text-align: center;
 }
-
+/* Fim estilo Localização / Rodapé */
+/* Início estilo Mobile > Tablet */
 @media screen and (max-width: 1200px) {
   .menu-header {
     width: 60%;
@@ -348,3 +352,4 @@ footer span {
   }
 
 }
+/* Início estilo Mobile > Tablet */
